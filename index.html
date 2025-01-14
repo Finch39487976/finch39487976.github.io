@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <ul>
+    {% for post in site.posts %}
+      <li>
+        {{post.title}}    
+      </li>
+    {% endfor %}
+    </ul>
+  </body>
+</html>
